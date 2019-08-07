@@ -1,0 +1,80 @@
+[DEVICE]
+Name=P33EP512MU810
+Clock=140000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=HTTP_Demo.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[FILES]
+Count=1
+File0=HTTP_Demo.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=1
+File0=HTTP_Demo.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=2
+File0=Serial_Ethernet.xml
+File1=Potentiometer.xml
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=8
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\
+Path2=C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\
+Path3=\\READYSHARE\USB_Storage\Software\Nilkumar\Working Ethernet April 29_2019_modified SDI bit\HTTP Demo\
+Path4=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FAT32 Library\Uses\
+Path5=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT800\Uses\
+Path6=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT810\Uses\
+Path7=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT812\Uses\
+[HEADER_PATH]
+Count=4
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FAT32 Library\Uses\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT800\Uses\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT810\Uses\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT812\Uses\
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=17
+File0=SPI_Ethernet
+File1=SPI12
+File2=SPI
+File3=Peripheral_Pin_Select
+File4=Net_Ethernet_28j60
+File5=Net_Ethernet_28j60_Defs
+File6=I2C
+File7=SPI_Ethernet_24j600
+File8=FT800_Defs_EP
+File9=FT800_EP
+File10=FT810_Defs_EP
+File11=FT810_EP
+File12=FT812_Defs_EP
+File13=FT812_EP
+File14=Net_Ethernet_24j600
+File15=Net_Ethernet_24j600_Defs
+File16=C_String
+[EXPANDED_NODES]
+Node0=Sources
+Node1=Active Comments Files
+Node2=Output Files
+Count=3

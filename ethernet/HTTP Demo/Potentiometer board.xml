@@ -1,0 +1,13 @@
+<Potentiometer board>
+	<Attributes>
+		<Url>http://www.mikroe.com/add-on-boards/measurement/potentiometer/.</Url>
+		<Image></Image>
+		<File></File>
+	</Attributes>
+	<Events>
+		<OnLeftClick>OpenUrl</OnLeftClick>
+		<OnRightClick></OnRightClick>
+		<OnDblClick></OnDblClick>
+		<OnMouseOver></OnMouseOver>
+	</Events>
+</Potentiometer board>

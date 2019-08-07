@@ -1,0 +1,19 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33EP512MU810 -DL -SSA -O11111104 -fo140 -N"C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\" -SP"\\READYSHARE\USB_Storage\Software\Nilkumar\Working Ethernet April 29_2019_modified SDI bit\HTTP Demo\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FAT32 Library\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT800\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT810\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT812\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FAT32 Library\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT800\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT810\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\FT812\Uses\" "HTTP_Demo.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays_ep.mcl" "__Lib_CString.mcl" "__Lib_I2C_12_p24_p33_9bit.mcl" "__Lib_SPI_1234_p24fj.mcl" "__Lib_PPS_p33EP512MU810.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl"	 
+diagnostics: 0	121	Loading...	 
+hint: 6	1354	 warning: The macro is redefined     #define SPI_Ethernet_HALFDUPLEX 0x00     previously macro "SPI_Ethernet_HALFDUPLEX" defined as: #define SPI_Ethernet_HALFDUPLEX  0 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+hint: 7	1354	 warning: The macro is redefined     #define SPI_Ethernet_FULLDUPLEX 0x01     previously macro "SPI_Ethernet_FULLDUPLEX" defined as: #define SPI_Ethernet_FULLDUPLEX  1 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+hint: 10	1354	 warning: The macro is redefined      #define MAADR1 0x00     previously macro "MAADR1" defined as: #define MAADR1  0x04 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+hint: 10	1354	 warning: The macro is redefined      #define MAADR2 0x03     previously macro "MAADR2" defined as: #define MAADR2  0x05 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+hint: 11	1354	 warning: The macro is redefined      #define MAADR4 0x05     previously macro "MAADR4" defined as: #define MAADR4  0x03 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+hint: 11	1354	 warning: The macro is redefined      #define MAADR5 0x04     previously macro "MAADR5" defined as: #define MAADR5  0x00 	C:\Users\Arul Prakash\Downloads\SPAR\HTTP Demo\HTTP_Demo.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (I2C_int1Chip2 at 0x003C)	HTTP_Demo.c
+diagnostics: 384	123	Compiled Successfully	HTTP_Demo.c
+diagnostics: 0	127	All files Compiled in 47 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 762   Dynamic RAM (bytes): 27910	Static RAM (bytes): 762   Dynamic RAM (bytes): 27910
+hint: 0	1144	Used ROM (bytes): 11042 (3%)  Free ROM (bytes): 339166 (97%)	Used ROM (bytes): 11042 (3%)  Free ROM (bytes): 339166 (97%)
+diagnostics: 0	125	Project Linked Successfully	HTTP_Demo.mcpds
+diagnostics: 0	128	Linked in 813 ms	 
+diagnostics: 0	129	Project 'HTTP_Demo.mcpds' completed: 1516 ms	 
+diagnostics: 0	103	Finished successfully: 02 Jul 2019, 14:09:57	HTTP_Demo.mcpds
